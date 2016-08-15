@@ -5,5 +5,5 @@ from django.shortcuts import render
 
 def show_templates(request, template_name):
     if template_name is not None:
-        print(template_name)
-        return render(request, 'template/'+template_name+'/index.html')
+        print(template_name, template_name+'/index.html')
+        return render(request, template_name+'/index.html')
