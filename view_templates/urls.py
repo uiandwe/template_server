@@ -1,9 +1,8 @@
 __author__ = 'uiandwe'
 
-from django.conf.urls import patterns, include, url
+from django.conf.urls import include, url
 
+from . import views
 
-urlpatterns = patterns('',
-                       url(r'^(?P<template_name>\w+)/$', 'view_templates.views.show_templates'),
-                       )
+urlpatterns = [url(r'^(?P<template_name>\w+)/$', views.show_templates), ]
 
