@@ -1,0 +1,200 @@
+/*
+baisc setup
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    overflow-x: hidden;
+    background: #f3f3f3;
+}
+
+@font-face {
+    font-family: 'Futura';
+    src: url("../fonts/Futura-T-OT-Book_19064.ttf") format('truetype');
+}
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #3d3d3f;
+}
+
+
+.clearfix {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.overflow-auto {
+    overflow: auto;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.sr-only {
+    overflow: hidden;
+    width: 0px;
+    height: 0px;
+}
+section {
+    padding: 80px 0;
+    overflow: auto;
+}
+
+.hidden {
+    display: none;
+}
+/*header*/
+
+/*body*/
+.container {
+
+}
+
+.container #background_video {
+    margin: 0;
+    padding: 0;
+    z-index: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+/* content*/
+.content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px;
+    overflow: auto;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.content .left-content {
+    width: 40%;
+    float: left;
+}
+
+.content h2 {
+    color: #fff;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Futura;
+}
+
+.content h2 span {
+    border: 3px solid white;
+    padding: 5px 5px 2px 2px;
+    margin-right: -6px;
+}
+
+.content h3, .content span, .content p {
+    color: #fff;
+}
+
+.content h3 {
+    font-weight: bold;
+    font-size: 29px;
+    padding-top: 20px;
+}
+
+.content p {
+    margin: 20px 0;
+    font-size: 1.2rem;
+    line-height: 32px;
+}
+
+.content ul {
+    list-style: none;
+}
+
+.content .left-content li {
+    float: left;
+    color: #fff;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.content .contact {
+    position: absolute;
+    bottom: 10px;
+}
+
+.content .introduce-option .panel-btn {
+
+}
+
+.content .right-content {
+    width: 50%;
+    float: right;
+}
+
+.content .right-content .ability-tab .parents-list li {
+    overflow: auto;
+    margin: 10px 0;
+}
+
+.content .right-content .ability-tab .parents-list h4 {
+    font-size: 20px;
+    color: #fff;
+    float: left;
+    width: 20%;
+}
+
+.content .right-content .ability-tab .parents-list ul.child-list {
+    float: left;
+    width: 80%;
+
+}
+
+.content .right-content .ability-tab .parents-list ul.child-list li {
+    float: left;
+    color: #fff;
+    margin: 5px 10px;
+}
+
+.content .right-content .portfolio article {
+    margin-bottom: 30px;
+}
+
+.content .right-content .portfolio h3 {
+    padding: 0;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #fff;
+}
+
+.content .right-content .portfolio li:before {
+    content: "-";
+    color: #fff;
+    text-indent: -5px;
+}
+
+.content .right-content .portfolio a {
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.contact a {
+    color: #fff;
+}
